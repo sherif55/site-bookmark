@@ -1,0 +1,16 @@
+.main{
+    background-color: #eeeeee;
+}
+.main input{
+    width: 924px;
+    height: 25px;
+    
+}
+.borderside{
+    width: 100vh;
+    height: 50px;
+    color: #aaaaaa;
+}
+.btn .btn-primary{
+    text-align: center;
+}

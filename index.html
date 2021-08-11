@@ -1,0 +1,46 @@
+
+<html>
+<head>
+ <link rel="stylesheet" href="css/all.min.css">  
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/indexstyle.css">
+</head>
+<body>
+    <div class="header container my-2">
+    <h3 class=" text-secondary my-3">  Bookmark Site</h3></div>
+    <div class="main container py-5">
+        <div class="borderside"></div>
+        <h2 class="text-center">Bookmark your favorite sites</h2>
+        <div class="form-group justify-content-center align-items-center">
+            <h6 class="text-center py-3">Site Name</h6>
+            <input id="name"class="form-control" placeholder="Site Name">
+        <div class="form-group">
+           <h6 class="text-center py-3">Site Url</h6>
+           <input id="url" class="form-control" placeholder="Site Url">
+       </div>
+    </div>
+       <button id="addBtn" class="btn btn-primary"> Add Site</button>
+       <div class="clearfix"></div>
+       </div>
+       <div class="container">
+       <table class="table">
+        <thead>
+            <th>Site Name</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+</div>
+
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mainjs.js"></script>
+</body>
+</html>
